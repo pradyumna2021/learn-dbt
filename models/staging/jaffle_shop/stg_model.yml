@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_customers
-    description: Staged customer data from our jaffle shop app.
+    description: Pradyumna -Staged customer data from our jaffle shop app.
     columns: 
       - name: customer_id
         description: The primary key for customers.
@@ -11,7 +11,7 @@ models:
           - not_null
 
   - name: stg_orders
-    description: Staged order data from our jaffle shop app.
+    description: Pradyumna -  Staged order data from our jaffle shop app.
     columns: 
       - name: order_id
         description: Primary key for orders.
