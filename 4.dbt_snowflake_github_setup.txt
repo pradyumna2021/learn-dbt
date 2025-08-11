@@ -1,0 +1,30 @@
+DBT MANUALLY connection to Snowfalke 
+
+1. Go to Profile 
+2. Project >> Create a Project
+3. Connections >> create a Snowfalke conncetion > use snowfalke credienatils 
+4. Github setup --> create repository in github and link it
+
+Once done with the above 3 setups 
+1. Studio >> New worksheet
+
+use shortcut __  you will get all the commands automatically 
+
+Example 
+
+{% block name %}
+    
+{% endblock %}
+
+ex 2
+
+{{
+    config(
+        materialized='table'
+    )
+}}
+
+======================================Using Snowflake Partner Connect =====================
+1. Snowfalke >> Home >> Data product >> Partner Connect >> DBT
+
+2. Disconnect the Partner >>  SELECT SYSTEM$REMOVE_ETL_INTEGRATION('DBT');
